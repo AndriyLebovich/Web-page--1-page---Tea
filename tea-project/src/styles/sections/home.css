@@ -1,0 +1,287 @@
+.top {
+	background-image: url("../../assets/section__top/Background.jpeg");
+	background-repeat: repeat;
+	background-position: bottom left;
+	background-size: cover;
+}
+
+.top__inner {
+	min-height: 500px;
+	color: #fff;
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.top__title {
+	font-size: 60px;
+	margin-bottom: 20px;
+	max-width: 780px;
+	line-height: 1;
+	font-weight: 400;
+}
+
+.top__text {
+	font-size: 24px;
+	margin-bottom: 48px;
+	max-width: 560px;
+	line-height: normal;
+}
+
+.blockquote__text {
+	font-size: 40px;
+	font-style: italic;
+	line-height: normal;
+	font-weight: 300;
+	max-width: 704px;
+	margin: 150px auto;
+	text-align: center;
+}
+
+.collection__inner {
+	margin-bottom: 150px;
+}
+
+.collection__items {
+	display: flex;
+	justify-content: center;
+	column-gap: 40px;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.collection__item {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 29px;
+	text-align: center;
+}
+
+.collection__item span {
+	display: block;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+	margin-top: 10px;
+}
+
+.collection__item-img {
+	margin-bottom: 10px;
+}
+
+.reviews {
+	background: rgb(247, 242, 234, 0.5);
+}
+
+.reviews__inner {
+	margin: 0 auto 120px;
+	padding: 60px 0;
+}
+
+.reviews__list {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 26px;
+}
+
+.reviews__item {
+	max-width: 280px;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+.review__text {
+	margin-bottom: 10px;
+}
+
+.review__author {
+	display: block;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 27px;
+}
+
+.blog__article {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 0 auto 60px;
+	row-gap: 40px;
+	column-gap: 20px;
+}
+
+.blog__article-item {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	max-width: 500px;
+	max-height: 180px;
+	column-gap: 20px;
+}
+
+.blog__article-text {
+	display: flex;
+	flex-direction: column;
+	max-height: 180px;
+	max-width: 250px;
+	color: rgb(21, 22, 24);
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 29px;
+	text-align: left;
+}
+
+.article-text__author {
+	display: flex;
+	flex-grow: 1;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 18px;
+}
+
+.article__text-link {
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 18px;
+}
+
+.blog__btn {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.blog__btn button {
+	padding: 12px 41px;
+	border: 1px solid #000;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 27px;
+}
+
+.blog__inner {
+	margin-bottom: 150px;
+}
+
+.registration {
+	background-image: url("../../assets/registration/background__registration.png");
+	background-repeat: repeat;
+	background-position: bottom left;
+	background-size: cover;
+}
+
+.registration__inner {
+	min-height: 418px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10% 0;
+	column-gap: 40px;
+	margin-bottom: 150px;
+}
+
+.registration__text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 580px;
+	min-height: 55%;
+}
+
+.registration__title {
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 48px;
+}
+
+.registration__description {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 150%;
+	max-height: 50%;
+}
+
+.registration__users {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	row-gap: 10px;
+	max-width: 580px;
+}
+
+.registration__email {
+	max-width: 580px;
+	column-gap: 25px;
+	display: flex;
+}
+
+.registration__input {
+	color: rgb(184, 181, 139);
+	padding-left: 15px;
+	border-bottom: 1px solid rgb(184, 181, 139);
+	flex-grow: 1;
+	align-self: end;
+	text-align: left;
+}
+
+.registration__input > input {
+	background-color: rgb(247, 242, 234);
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 150%;
+}
+
+.registration__btn {
+	background-color: #fff;
+	border: 1px solid #000;
+	min-width: 116px;
+	min-height: 50px;
+}
+
+.registration__btn > button {
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 27px;
+}
+
+.registration__privacy {
+	display: flex;
+	column-gap: 5px;
+}
+
+.registration__checkbox {
+	display: flex;
+	align-items: start;
+}
+
+.checkbox__description {
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 18px;
+}
+
+.prioritise__inner {
+	margin-bottom: 150px;
+}
+
+.prioritise__list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	text-align: center;
+}
+
+.prioritise__item-title {
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 41px;
+	margin-bottom: 10px;
+}
+
+.prioritise__item-text {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 27px;
+	margin-bottom: 30px;
+}
